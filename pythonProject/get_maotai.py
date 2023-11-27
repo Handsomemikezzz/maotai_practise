@@ -27,8 +27,8 @@ def log_in(username, password):
 if driver.find_element(by=By.PARTIAL_LINK_TEXT, value='你好，请登录'):
     driver.find_element(by=By.PARTIAL_LINK_TEXT, value='你好，请登录').click()
 
-user = 'haonan发财'
-pwd = 'jingdong$$666'
+user = ' JD账户'
+pwd = '你的密码'
 log_in(user, pwd)
 time.sleep(5)
 if driver.find_element(by=By.CLASS_NAME, value='JDJRV-suspend-slide'):
